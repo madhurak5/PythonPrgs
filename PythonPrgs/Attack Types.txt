@@ -1,0 +1,29 @@
+back dos
+buffer_overflow u2r
+ftp_write r2l
+guess_passwd r2l
+imap r2l
+ipsweep probe
+land dos
+loadmodule u2r
+multihop r2l
+neptune dos
+nmap probe
+perl u2r
+phf r2l
+pod dos
+portsweep probe
+rootkit u2r
+satan probe
+smurf dos
+spy r2l
+teardrop dos
+warezclient r2l
+warezmaster r2l
+
+dos 0 back land neptune pod smurf teardrop 
+r2l 1 ftp_write guess_passwd imap multihop phf spy warezclient warezmaster 
+u2r 2 buffer_overflow loadmodule perl rootkit 
+probe 3 ipsweep nmap portsweep satan 
+
+	

@@ -1,0 +1,30 @@
+import turtle
+# s = turtle.getscreen()
+# turtle.mainloop()
+
+# Creating turtle screen
+t = turtle.Turtle()
+# To stop the screen to display
+
+# t.backward(100)
+# t.right(25)
+t.fd(100)
+# t.rt(90)
+t.lt(90)
+t.fd(100)
+t.rt(90)
+t.fd(100)
+t.rt(90)
+t.fd(100)
+t.circle(50)
+t.fd(100)
+t.rt(90)
+t.fd(100)
+t.rt(90)
+t.fd(100)
+t.rt(90)
+t.fd(100)
+t.lt(315)
+t.bk(130)
+# t.dot(50)
+turtle.mainloop()
