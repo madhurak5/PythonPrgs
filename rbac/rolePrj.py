@@ -1,0 +1,20 @@
+import rbac as rb
+from rbac.acl import Registry
+
+print("Roles in the organization  --->")
+print("1. Admin")
+print("2. Superuser")
+print("3. Technician")
+print("4. Faculty")
+print("5. Student")
+print("6. Guest")
+print("Permissions --->")
+print("Admin -> ")
+print("Add a new user")
+print("Delete user")
+print("Update user permissions")
+print("Superuser ->")
+print("Delete users and files")
+print("Create files")
+print("Modify files")
+print("Privileges : Read / Write / Execute")
